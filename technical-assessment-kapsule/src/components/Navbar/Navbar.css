@@ -1,0 +1,98 @@
+
+  .profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    object-fit: cover;
+    margin: 8px;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+    cursor: pointer;
+  }
+  
+  .notification i {
+    color: var(--small-text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 8px;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+  }
+  
+  .notification {
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 25%;
+    right: -10%;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #68c58b;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.8rem;
+    margin: 8px;
+  }
+  .logo {
+    font-family: 'DM Sans', sans-serif;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .navbar {
+    background: #ffffff;
+    grid-area: nav;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.2);
+    margin-left: 230px;
+  }
+  .nav_icon {
+    display: none;
+  }
+  .nav_icon i {
+    font-size: 36px;
+    color: #121213;
+    cursor: pointer;
+  }
+  .navbar-left {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #a5aaad;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-right i {
+    color: #a5aaad;
+    font-size: 16px;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
+    padding : 7px;
+  }
+  @media only screen and (max-width: 978px) {
+    .nav_icon {
+      display: inline;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .nav_icon {
+      display: none;
+    }
+  }
